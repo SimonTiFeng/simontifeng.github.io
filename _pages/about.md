@@ -39,7 +39,6 @@ News
 * **Apr 28, 2026:** Submitted *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* to NeurIPS 2026.
 * **Mar 26, 2026:** Submitted *All-as-Vision* to ACMMM 2026.
 * **Dec 09, 2025:** Submitted *FUSE* to CVPR 2026.
-* **Jul 23, 2025:** Submitted *FUSE* to AAAI 2026; later withdrawn.
 * **May 2025:** Joined Prof. Mingliang Hou's group at Jinan University as an RA.
 * **Nov 2024:** Joined Prof. Hao Chen's group at Macau University of Science and Technology as an RA.
 
