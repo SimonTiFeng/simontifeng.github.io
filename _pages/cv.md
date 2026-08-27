@@ -7,58 +7,60 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+* **Jinan University**, Guangzhou, China
+  * Bachelor of Information Management and Information Systems, Department of Mathematics
+  * Expected graduation: June 2027
+  * GPA: 3.34 / 5.00; average: 83.4 / 100
+
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **May 2025 — present: Research Assistant**, Jinan University
+  * With Associate Professor Mingliang Hou
+  * Research on efficient LLM data selection, information-theoretic evaluation, causal model auditing, and robotic manipulation evaluation.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* **November 2024 — September 2025: Research Assistant**, Macau University of Science and Technology
+  * With Professor Hao Chen
+  * Research on knowledge graphs, graph representation learning, recommendation systems, and knowledge-enhanced retrieval.
+
+Research interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* AI evaluation and model auditing
+* Mechanistic interpretability
+* Trustworthy and causal machine learning
+* Data-centric AI and efficient LLM systems
+* Information-theoretic machine learning
+* Generative models and computer vision
+
+Technical skills
+======
+
+* **Programming:** Python, MATLAB, SQL, Java, C
+* **Scientific computing:** Pandas, NumPy, Matplotlib, Seaborn
+* **Machine learning:** PyTorch, Scikit-Learn, Transformers, Hugging Face, Qwen, DeepSeek
+* **Tools:** Linux, Git, Jupyter, LaTeX
+
+Honors and awards
+======
+
+* Jinan University Third-Class Outstanding Student Scholarship
+* Mathematical Contest in Modeling (MCM/ICM), Successful Participant (2024)
+* Mathematical Contest in Modeling (MCM/ICM), Honorable Mention (2025)
+
+Language
+======
+
+* IELTS: Overall 7.0 (Listening 7.5, Reading 7.5, Speaking 6.0, Writing 6.0)
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+[Download a PDF CV]({{ "/files/Houru_Jiang_CV.pdf" | relative_url }})
