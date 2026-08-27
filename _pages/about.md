@@ -9,7 +9,7 @@ redirect_from:
 
 Hi there! I am an undergraduate researcher at **Jinan University**, working at the intersection of evaluation-centred trustworthy AI and data-centric LLM systems. My research asks how we can make modern models more measurable, interpretable, and efficient.
 
-My work spans information-theoretic evaluation, causal model auditing, mechanistic interpretability, efficient instruction-data selection, and generative models for computer vision. I am currently preparing applications for fully funded 2027 Fall PhD and research-master programmes.
+My work spans information-theoretic evaluation, causal model auditing, mechanistic interpretability, efficient instruction-data selection, and generative models for computer vision. I am currently seeking fully funded PhD opportunities and welcome contact from prospective supervisors and collaborators.
 
 Research Interests
 ======
@@ -33,7 +33,7 @@ Using causal, information-theoretic, and probabilistic analysis to diagnose stru
 News
 ======
 
-* **2026:** Preparing applications for fully funded 2027 Fall PhD and research-master opportunities.
+* **2026:** Seeking fully funded PhD opportunities; prospective supervisors and collaborators are welcome to get in touch.
 * **2026:** CDIS is under review at AAAI 2027; HB++ is under review at WSDM 2027.
 * **2025:** Joined Jinan University as a Research Assistant with Associate Professor Mingliang Hou.
 * **2024:** Started research work on knowledge graphs, graph learning, and knowledge-enhanced retrieval.
@@ -47,4 +47,4 @@ Selected Publications
 
 *Equal contribution / co-first author. All listed venues reflect current submission status, not acceptance.*
 
-Avatar image: [official @hanakokun_en profile image](https://x.com/hanakokun_en).
+Avatar image: official character artwork from the [TV anime character page](https://hanakokun.com/2nd/character/).
