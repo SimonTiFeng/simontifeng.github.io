@@ -33,10 +33,11 @@ Using causal, information-theoretic, and probabilistic analysis to diagnose stru
 News
 ======
 
-* **2026:** Seeking fully funded PhD opportunities; prospective supervisors and collaborators are welcome to get in touch.
-* **2026:** CDIS is under review at AAAI 2027; HB++ is under review at WSDM 2027.
-* **2025:** Joined Jinan University as a Research Assistant with Associate Professor Mingliang Hou.
-* **2024:** Started research work on knowledge graphs, graph learning, and knowledge-enhanced retrieval.
+* **Aug 24, 2026:** Submitted *HB++* to WSDM 2027.
+* **Jul 28, 2026:** Submitted *CDIS*, *ResidKT*, *VLM-CD*, and *All-as-Vision* to AAAI 2027.
+* **May 06, 2026:** Submitted *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* to NeurIPS 2026.
+* **May 2025:** Joined Jinan University as a Research Assistant in Associate Professor Mingliang Hou's group.
+* **Nov 2024:** Joined Macau University of Science and Technology as a Research Assistant in Professor Hao Chen's group.
 
 Selected Publications
 ======
@@ -45,6 +46,6 @@ Selected Publications
   {% include archive-single.html %}
 {% endfor %}
 
-*Equal contribution / co-first author. All listed venues reflect current submission status, not acceptance.*
+<sup>*</sup> Equal contribution / co-first author. All listed venues reflect current submission status, not acceptance.
 
 Avatar image: official character artwork from the [TV anime character page](https://hanakokun.com/2nd/character/).
