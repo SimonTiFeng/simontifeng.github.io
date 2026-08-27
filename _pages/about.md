@@ -36,8 +36,8 @@ News
 * **Aug 24, 2026:** Submitted *HB++* to WSDM 2027.
 * **Jul 28, 2026:** Submitted *CDIS*, *ResidKT*, *VLM-CD*, and *All-as-Vision* to AAAI 2027.
 * **May 06, 2026:** Submitted *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* to NeurIPS 2026.
-* **May 2025:** Joined Jinan University as a Research Assistant in Associate Professor Mingliang Hou's group.
-* **Nov 2024:** Joined Macau University of Science and Technology as a Research Assistant in Professor Hao Chen's group.
+* **May 2025:** Joined Prof. Mingliang Hou's group at Jinan University as an RA.
+* **Nov 2024:** Joined Prof. Hao Chen's group at Macau University of Science and Technology as an RA.
 
 Selected Publications
 ======
