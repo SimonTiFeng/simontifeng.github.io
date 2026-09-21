@@ -33,6 +33,7 @@ Using causal, information-theoretic, and probabilistic analysis to diagnose stru
 News
 ======
 
+* **Sep 17, 2026:** Submitted *When Target Accuracy Hides Semantic Interface Drift in Vision–Language Adaptation*, *Factorized Initialization for Few-Step Adaptation in Time-Series Forecasting*, and *Predicted Links as Messages* to ICLR 2027.
 * **Aug 24, 2026:** Submitted *HB++* to WSDM 2027.
 * **Jul 21, 2026:** Submitted *ResidKT* to AAAI 2027.
 * **Jul 20, 2026:** Submitted *All-as-Vision*, *CDIS*, and *VLM-CD* to AAAI 2027.
