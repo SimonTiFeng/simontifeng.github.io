@@ -33,6 +33,7 @@ Using causal, information-theoretic, and probabilistic analysis to diagnose stru
 News
 ======
 
+* **Sep 25, 2026:** *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* was accepted as a poster at NeurIPS 2026.
 * **Sep 17, 2026:** Submitted *When Target Accuracy Hides Semantic Interface Drift in Vision–Language Adaptation*, *Factorized Initialization for Few-Step Adaptation in Time-Series Forecasting*, and *Predicted Links as Messages* to ICLR 2027.
 * **Aug 24, 2026:** Submitted *HB++* to WSDM 2027.
 * **Jul 21, 2026:** Submitted *ResidKT* to AAAI 2027.
