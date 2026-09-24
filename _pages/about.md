@@ -48,9 +48,16 @@ Selected Publications
 ======
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.status == "Accepted as poster" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+{% for post in site.publications reversed %}
+  {% unless post.status == "Accepted as poster" %}
+    {% include archive-single.html %}
+  {% endunless %}
 {% endfor %}
 
-<sup>*</sup> Equal contribution / co-first author. All listed venues reflect current submission status, not acceptance.
+<sup>*</sup> Equal contribution / co-first author.
 
 Avatar image: official character artwork from the [TV anime character page](https://hanakokun.com/2nd/character/).
