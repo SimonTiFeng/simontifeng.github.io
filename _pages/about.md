@@ -47,13 +47,13 @@ News
 Selected Publications
 ======
 
+{% assign featured_publication = site.publications | where: "permalink", "/publication/2026-information-theoretic-evaluation" | first %}
+{% if featured_publication %}
+  {% assign post = featured_publication %}
+  {% include archive-single.html %}
+{% endif %}
 {% for post in site.publications reversed %}
-  {% if post.status == "Accepted as poster" %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-{% for post in site.publications reversed %}
-  {% unless post.status == "Accepted as poster" %}
+  {% unless post.permalink == "/publication/2026-information-theoretic-evaluation" %}
     {% include archive-single.html %}
   {% endunless %}
 {% endfor %}
