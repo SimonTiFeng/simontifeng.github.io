@@ -49,7 +49,8 @@ Selected Publications
   {% assign post = featured_publication %}
   {% include archive-single.html %}
 {% endif %}
-{% assign homepage_publications = site.publications | where_exp: "item", "item.venue != 'AAAI 2027' and item.venue != 'ACMMM 2026'" %}
+{% assign homepage_publications = site.publications | where_exp: "item", "item.venue != 'AAAI 2027'" %}
+{% assign homepage_publications = homepage_publications | where_exp: "item", "item.venue != 'ACMMM 2026'" %}
 {% for post in homepage_publications reversed %}
   {% unless post.permalink == "/publication/2026-information-theoretic-evaluation" %}
     {% include archive-single.html %}

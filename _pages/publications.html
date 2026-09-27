@@ -10,7 +10,8 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-{% assign public_publications = site.publications | where_exp: "item", "item.venue != 'AAAI 2027' and item.venue != 'ACMMM 2026'" %}
+{% assign public_publications = site.publications | where_exp: "item", "item.venue != 'AAAI 2027'" %}
+{% assign public_publications = public_publications | where_exp: "item", "item.venue != 'ACMMM 2026'" %}
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
