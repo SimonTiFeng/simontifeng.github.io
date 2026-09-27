@@ -61,6 +61,7 @@ Publications
 
 {% assign cv_publications = site.publications | where_exp: "item", "item.venue != 'AAAI 2027'" %}
 {% assign cv_publications = cv_publications | where_exp: "item", "item.venue != 'ACMMM 2026'" %}
+{% assign cv_publications = cv_publications | where_exp: "item", "item.venue != 'CVPR 2026'" %}
 <ul>{% for post in cv_publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
