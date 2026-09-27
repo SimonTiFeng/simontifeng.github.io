@@ -37,7 +37,6 @@ News
 * **Sep 17, 2026:** Submitted *When Target Accuracy Hides Semantic Interface Drift in Vision–Language Adaptation*, *Factorized Initialization for Few-Step Adaptation in Time-Series Forecasting*, and *Predicted Links as Messages* to ICLR 2027.
 * **Aug 24, 2026:** Submitted *HB++* to WSDM 2027.
 * **Apr 28, 2026:** Submitted *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* to NeurIPS 2026.
-* **Mar 26, 2026:** Submitted *All-as-Vision* to ACMMM 2026.
 * **Dec 09, 2025:** Submitted *FUSE* to CVPR 2026.
 * **May 2025:** Joined Prof. Mingliang Hou's group at Jinan University as an RA.
 * **Nov 2024:** Joined Prof. Hao Chen's group at Macau University of Science and Technology as an RA.
@@ -50,7 +49,7 @@ Selected Publications
   {% assign post = featured_publication %}
   {% include archive-single.html %}
 {% endif %}
-{% assign homepage_publications = site.publications | where_exp: "item", "item.venue != 'AAAI 2027'" %}
+{% assign homepage_publications = site.publications | where_exp: "item", "item.venue != 'AAAI 2027' and item.venue != 'ACMMM 2026'" %}
 {% for post in homepage_publications reversed %}
   {% unless post.permalink == "/publication/2026-information-theoretic-evaluation" %}
     {% include archive-single.html %}

@@ -59,7 +59,8 @@ Language
 Publications
 ======
 
-<ul>{% for post in site.publications reversed %}
+{% assign cv_publications = site.publications | where_exp: "item", "item.venue != 'AAAI 2027' and item.venue != 'ACMMM 2026'" %}
+<ul>{% for post in cv_publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
