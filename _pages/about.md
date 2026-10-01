@@ -34,10 +34,10 @@ News
 ======
 
 * **Sep 29, 2026:** Submitted *Residualizing DKT with Symbolic Sequence Priors for Knowledge Tracing* to AISTATS 2027.
-* **Sep 25, 2026:** *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* was accepted as a poster at NeurIPS 2026.
+* **Sep 25, 2026:** *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* was accepted as a poster at **NeurIPS 2026**.
 * **Sep 17, 2026:** Submitted *When Target Accuracy Hides Semantic Interface Drift in Vision–Language Adaptation*, *Factorized Initialization for Few-Step Adaptation in Time-Series Forecasting*, and *Predicted Links as Messages* to ICLR 2027.
 * **Aug 24, 2026:** Submitted *HB++* to WSDM 2027.
-* **Apr 28, 2026:** Submitted *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* to NeurIPS 2026.
+* **Apr 28, 2026:** Submitted *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* to **NeurIPS 2026**.
 * **May 2025:** Joined Prof. Mingliang Hou's group at Jinan University as an RA.
 * **Nov 2024:** Joined Prof. Hao Chen's group at Macau University of Science and Technology as an RA.
 

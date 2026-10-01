@@ -10,7 +10,10 @@
       <p class="archive__item-authors" itemprop="author">{{ post.author_list }}</p>
     {% endif %}
     <p class="page__meta">
-      {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.status %} · {{ post.status }}{% endif %}
+      {% if post.venue %}
+        {% if post.venue == 'NeurIPS 2026' %}<strong><i>{{ post.venue }}</i></strong>{% else %}<i>{{ post.venue }}</i>{% endif %}
+      {% endif %}
+      {% if post.status %} · {{ post.status }}{% endif %}
     </p>
   </article>
 </div>
