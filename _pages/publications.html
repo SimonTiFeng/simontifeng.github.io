@@ -15,6 +15,12 @@ author_profile: true
 {% assign public_publications = public_publications | where_exp: "item", "item.venue != 'CVPR 2026'" %}
 {% assign featured_publication = site.publications | where: "permalink", "/publication/2026-information-theoretic-evaluation" | first %}
 
+{% if featured_publication %}
+  <h2>Featured Publication</h2><hr />
+  {% assign post = featured_publication %}
+  {% include archive-single.html %}
+{% endif %}
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
@@ -24,16 +30,8 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        {% assign current_publication = post %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
-        {% if featured_publication %}
-          {% if featured_publication.category == category[0] %}
-            {% assign post = featured_publication %}
-            {% include archive-single.html %}
-            {% assign post = current_publication %}
-          {% endif %}
-        {% endif %}
       {% endunless %}
       {% unless post.permalink == featured_publication.permalink %}
         {% include archive-single.html %}
@@ -41,10 +39,6 @@ author_profile: true
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% if featured_publication %}
-    {% assign post = featured_publication %}
-    {% include archive-single.html %}
-  {% endif %}
   {% for post in public_publications reversed %}
     {% unless post.permalink == featured_publication.permalink %}
       {% include archive-single.html %}
