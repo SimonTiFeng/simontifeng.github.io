@@ -62,8 +62,15 @@ Publications
 {% assign cv_publications = site.publications | where_exp: "item", "item.venue != 'AAAI 2027'" %}
 {% assign cv_publications = cv_publications | where_exp: "item", "item.venue != 'ACMMM 2026'" %}
 {% assign cv_publications = cv_publications | where_exp: "item", "item.venue != 'CVPR 2026'" %}
-<ul>{% for post in cv_publications reversed %}
+{% assign featured_publication = site.publications | where: "permalink", "/publication/2026-information-theoretic-evaluation" | first %}
+<ul>{% if featured_publication %}
+  {% assign post = featured_publication %}
   {% include archive-single-cv.html %}
+{% endif %}
+{% for post in cv_publications reversed %}
+  {% unless post.permalink == featured_publication.permalink %}
+    {% include archive-single-cv.html %}
+  {% endunless %}
 {% endfor %}</ul>
 
 [Download a PDF CV]({{ "/files/Houru_Jiang_CV.pdf" | relative_url }})
