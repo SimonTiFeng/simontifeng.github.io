@@ -33,6 +33,7 @@ Using causal, information-theoretic, and probabilistic analysis to diagnose stru
 News
 ======
 
+* **Oct 5, 2026:** Submitted *CDIS: Training-Free Data Selection for Instruction Tuning with Compression Ratio and Token Entropy* to ACL ARR 2026 October.
 * **Sep 29, 2026:** Submitted *Residualizing DKT with Symbolic Sequence Priors for Knowledge Tracing* to AISTATS 2027.
 * **Sep 25, 2026:** *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* was accepted as a poster at **NeurIPS 2026**.
 * **Sep 17, 2026:** Submitted *When Target Accuracy Hides Semantic Interface Drift in Vision–Language Adaptation*, *Factorized Initialization for Few-Step Adaptation in Time-Series Forecasting*, and *Predicted Links as Messages* to ICLR 2027.
