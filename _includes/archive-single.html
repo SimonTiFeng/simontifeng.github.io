@@ -17,6 +17,7 @@
       {% elsif post.venue %}
         {% if post.venue == 'NeurIPS 2026' %}<strong><i>{{ post.venue }}</i></strong>{% else %}<i>{{ post.venue }}</i>{% endif %}
       {% endif %}
+      {% if post.arxivurl %} · <a href="{{ post.arxivurl }}">arXiv</a>{% endif %}
     </p>
   </article>
 </div>
