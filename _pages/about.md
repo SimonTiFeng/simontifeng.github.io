@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I am an undergraduate researcher at **Jinan University**, working at the intersection of evaluation-centred trustworthy AI and data-centric LLM systems. My research asks how we can make modern models more measurable, interpretable, and efficient.
+Hi there! I am an undergraduate researcher at **Jinan University** and a Research Assistant with **Dexiong Chen's group at the Hong Kong University of Science and Technology (Guangzhou)**. I joined the group on **Nov 10, 2026**. My research asks how we can make modern models more measurable, interpretable, and efficient.
 
 My work spans information-theoretic evaluation, causal model auditing, mechanistic interpretability, efficient instruction-data selection, and generative models for computer vision. I am currently seeking fully funded PhD opportunities and welcome contact from prospective supervisors and collaborators.
 
@@ -33,6 +33,7 @@ Using causal, information-theoretic, and probabilistic analysis to diagnose stru
 News
 ======
 
+* **Nov 10, 2026:** Joined Dexiong Chen's group at **HKUST (Guangzhou)** as a Research Assistant.
 * **Oct 5, 2026:** Submitted *CDIS: Training-Free Data Selection for Instruction Tuning with Compression Ratio and Token Entropy* to ACL ARR 2026 October.
 * **Sep 29, 2026:** Submitted *Residualizing DKT with Symbolic Sequence Priors for Knowledge Tracing* to AISTATS 2027.
 * **Sep 25, 2026:** *An Information-Theoretic Evaluation Framework for Benchmark and Model Diagnosis in Knowledge Tracing* was accepted as a poster at **NeurIPS 2026**.

@@ -18,6 +18,9 @@ Education
 Research experience
 ======
 
+* **November 10, 2026 — present: Research Assistant**, Hong Kong University of Science and Technology (Guangzhou)
+  * With Dexiong Chen's group.
+
 * **May 2025 — present: Research Assistant**, Jinan University
   * With Associate Professor Mingliang Hou
   * Research on efficient LLM data selection, information-theoretic evaluation, causal model auditing, and robotic manipulation evaluation.
