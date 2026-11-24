@@ -14,9 +14,9 @@ My work spans information-theoretic evaluation, causal model auditing, mechanist
 Research Interests
 ======
 
-**AI Evaluation and Model Auditing**
+**Tabular Learning and Graph Learning**
 
-Designing model-agnostic protocols that test whether benchmarks and models use the information they are expected to use.
+Learning from structured data, including tabular prediction, graph representation learning, and recommendation.
 
 **Mechanistic Interpretability**
 
